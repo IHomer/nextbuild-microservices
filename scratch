@@ -1,0 +1,5 @@
+spring init --build=gradle --dependencies=cloud-eureka-server discovery
+spring init --build=gradle --dependencies=cloud-zuul zuul
+spring init --build=gradle --dependencies=cloud-ribbon,cloud-eureka,web,cloud-hystrix red
+spring init --build=gradle --dependencies=cloud-ribbon,cloud-eureka,web green
+spring init --build=gradle --dependencies=cloud-ribbon,cloud-eureka,web blue
